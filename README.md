@@ -6,7 +6,7 @@ Developing machine learning model that can detect cyberbullying content from tex
 
 2. **Class Imbalanace:** Usually the non-bullying content in cyberbullying datasets far outnumbers the actual bullying content. Dealing with class imbalances in text is not as straightforward as other data types.
 
-In this project the text is represented using idirectional Encoder Representations from Transformers (BERT), a language model that creates  feature  embeddings  from 
+In this project the text is represented using Bidirectional Encoder Representations from Transformers (BERT), a language model that creates  feature  embeddings  from 
 pieces of text. The imbalance is dealt with using Easy Data Augmentation(EDA). EDA uses four techniques on text data to artificially increase the amount of data. They are as follows: 
 - **Synonym  Replacement:**  It  randomly  chooses  some  words  in  the  sentence  and  replaces  them  with 
 their synonym. 
